@@ -1,0 +1,42 @@
+h1 {
+  text-align: center;
+  font-family: 'Pinyon Script', cursive;
+  font-size: 75px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.well {
+  background-color: yellow;
+  height: 300px;
+  border: solid gray;
+
+}
+
+.well1 {
+  background-color: yellow;
+  height: 300px;
+  padding-top: none;
+  padding-bottom: 5px;
+  border: solid gray;
+}
+
+.sizes {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.toppings {
+  font-size: 20px;
+}
+
+.well2 {
+  height: 50px;
+  background-color: pink;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+h5 {
+  font-size: 15px;
+}
