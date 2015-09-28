@@ -66,7 +66,7 @@ var appendToppingsBoxes = function() {
 
 var appendQuantityBox = function() {
 return  '<label for="quantity">Quantity  </label>' +
-        '<input type="number" name="quantity" class="quantity" value="1" min="1" max="10">';
+        '<input type="number" name="quantity" class="quantity" value="0" min="1" max="10">';
 }
 
 
