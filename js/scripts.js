@@ -87,7 +87,6 @@ $(document).ready(function() {
     $("#size-price").text("$" + newPizza.priceForSize(size));
   });
 
-
   $(".quantity").change(function() {
     newOrder.quantity = $("input[name=quantity]").val();
   });
@@ -108,9 +107,8 @@ $(document).ready(function() {
   });
 
   $("#order").click(function() {
-
     $(".result").show();
     var price = newOrder.totalOrder();
   $("#total-price").text("$" + price);
-});
+  });
 });
